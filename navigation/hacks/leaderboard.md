@@ -37,7 +37,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgb(29, 59, 157);
+    background-color:rgb(48, 48, 48);
     margin-bottom: 12px;
     padding: 14px 20px;
     border-radius: 8px;
@@ -56,7 +56,7 @@ li {
 
 <h2>Leaderboard</h2>
 
-<div class="container" id="leaderboard-box" style="border: 2px solid #333; border-radius: 10px; padding: 16px; background-color:rgb(67, 23, 23);">
+<div class="container" id="leaderboard-box" style="border: 2px solid #333; border-radius: 10px; padding: 16px; background-color:rgb(174, 174, 174);">
   <ul id="leaderboard-list"></ul>
 </div>
 <script type="module">
@@ -104,7 +104,7 @@ li {
         } catch (error) {
             console.error('Error loading leaderboard:', error.message || error);
             const leaderboardList = document.getElementById('leaderboard-list');
-            leaderboardList.innerHTML = '<li style="color:red;">Failed to load leaderboard data. See console for details.</li>';
+            leaderboardList.innerHTML = '<li style="color:white;">Failed to load leaderboard data. See console for details.</li>';
         }
     }
     window.onload = fetchLeaderboard;

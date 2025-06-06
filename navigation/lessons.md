@@ -32,7 +32,7 @@ toc: true
       display: block;
       width: 100%;
       margin: 12px 0;
-      background:rgb(217, 90, 0);         /* light gray */
+      background:rgb(202, 202, 202);         /* light gray */
       border-radius: 6px;
       padding: 16px;
       border: 1px solid #ccc;
@@ -45,7 +45,7 @@ toc: true
       text-decoration: none;
     }
     .button:hover {
-      background: rgb(159, 66, 0);
+      background: rgb(164, 162, 162);
       transform: scale(1.03);
     }
     .points-section {
@@ -194,4 +194,3 @@ toc: true
   updatePointsDisplay();
 </script>
 
-</body>
