@@ -3,7 +3,7 @@
 layout: page
 title: GitHub Pages
 description: This page will teach you how to set up GitHub Pages on a browser version of Visual Studio Code (VSCode)
-permalink: /tools/github/pages
+permalink: /tools/github/page
 menu: nav/tools_setup.html
 toc: true
 ---
