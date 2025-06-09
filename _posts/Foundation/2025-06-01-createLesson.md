@@ -4,13 +4,13 @@ show_reading_time: false
 permalink: /lessoncreation
 title: How to Create a Lesson
 video_url: "https://www.youtube.com/watch?v=4nE7MBTV7nQ"
+toc: true
 ---
 
 <div id="lesson-content">
 
   {% include video.html %}
 
-  <h1>How to Build a Coding Lesson with Layouts</h1>
   <p>This guide walks you through how to design, build, and deploy an interactive coding lesson using <code>lesson.html</code> and <code>cover.html</code>. These layout templates are part of a modular system that makes it easy for teachers to assemble consistent, polished, and engaging lessons. The system supports multimedia, code execution, student input, live feedback, and collaborative tools.</p>
 
   <hr>
@@ -198,6 +198,8 @@ permalink: /functions
   <p>📝 You can also add your own flashcards about additional features or customization ideas as you experiment with the layout system.</p>
 
   <h2>Extra Practice</h2>
+
+  {% include ai_comprehension.html %}
 
 
 </div>
